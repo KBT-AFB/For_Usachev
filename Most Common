@@ -1,0 +1,8 @@
+s = [5, 2, 3, 1, 2, 4, 11, 8, 6, 2, 7]
+elem_most_common = 0
+for elem in s:
+  most_common = s.count(elem)
+  if most_common < elem_most_common:
+    elem_most_common = most_common
+    print(elem_most_common)
+#Не получается совместить пересчёт элементов и выборку наиболее частого элемента
